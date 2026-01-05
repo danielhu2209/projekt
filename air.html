@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WarThunder - Légi Csaták</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="air.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body class="air-body">
+    <header>
+      <div class="container header-container">
+        <div class="logo">
+          <a href="https://www.warthunder.com" target="_blank"
+            ><img src="Images/logo.jpg" class="logo-img rounded img-fluid"
+          /></a>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="mechanikak.html">Játék mechanikák</a></li>
+            <li><a href="ground.html">Szárazföldi csaták</a></li>
+            <li><a href="air.html" class="active">Légi csaták</a></li>
+            <li><a href="navy.html">Tengeri csaták</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="air-hero">
+      <div class="container">
+        <h1>Légi Csaták WarThunderben</h1>
+        <p>
+          Szárnyalj a fellegek között, ahol a sebesség, a magasság és a taktika
+          dönti el a csaták kimenetelét. Ismerd meg a repülőgépek titkait, a
+          légi harc stratégiáit és az égbolt uralásának művészetét.
+        </p>
+      </div>
+    </section>
+
+    <main class="container air-content">
+      <section class="air-section">
+        <h2>Repülőgépek és Típusaik</h2>
+
+        <p>
+          A WarThunder légi csatáinak középpontjában a 20. századi és modern
+          repülőgépek állnak, amelyek a történelem legikonikusabb repülőgépeit
+          képviselik. A játék több mint 800 különböző légi járművet kínál,
+          amelyek valós történelmi példányokon alapulnak.
+        </p>
+
+        <h3>Repülőgép kategóriák</h3>
+        <div class="aircraft-categories">
+          <div class="aircraft-category">
+            <h4>Vadászrepülőgépek</h4>
+            <p>
+              Gyors, manőverezőképes gépek légifölényért folytatott harcra.
+              Példák: Spitfire, Bf 109, Mustang P-51.
+            </p>
+          </div>
+
+          <div class="aircraft-category">
+            <h4>Nehéz Vadászgépek</h4>
+            <p>
+              Nagyobb, jobban felfegyverzett gépek, amelyek bombázók
+              megsemmisítésére specializálódtak. Példák: P-47 Thunderbolt, Fw
+              190, Ki-45.
+            </p>
+          </div>
+
+          <div class="aircraft-category">
+            <h4>Bombázók</h4>
+            <p>
+              Nagy bombateherrel és erős védelemmel rendelkező gépek földi
+              célpontok megsemmisítésére. Példák: B-17 Flying Fortress, He 111,
+              Pe-8.
+            </p>
+          </div>
+
+          <div class="aircraft-category">
+            <h4>Csapásmérő repülőgépek</h4>
+            <p>
+              Földi célok elleni támadásra tervezett, jól páncélozott gépek.
+              Példák: Il-2 Sturmovik, A-10 Thunderbolt II, Ju 87 Stuka.
+            </p>
+          </div>
+        </div>
+
+        </section>
+
+      <section class="air-section">
+        <h2>Fegyverzet és Lőszerek</h2>
+
+        <p>
+          A WarThunderben minden repülőgép egyedi fegyverzettel rendelkezik,
+          amely jelentősen befolyásolja a harci taktikákat. A megfelelő
+          fegyverhasználat kulcsfontosságú a légi fölény megszerzéséhez.
+        </p>
+
+        <h3>Fegyver típusok</h3>
+        <ul class="feature-list">
+          <li>
+            <strong>Géppuskák (7.7mm - 12.7mm)</strong>: Kisebb kaliber, gyors
+            tűzgyorsaság, kevés rombolóerő. Példa: M2 Browning .50 cal.
+          </li>
+          <li>
+            <strong>Géppuska-granátvetők (20mm - 30mm)</strong>: Közepes
+            kaliber, jó rombolóerő. Példa: MG 151/20, Hispano Mk.II.
+          </li>
+          <li>
+            <strong>Gépágyúk (37mm+)</strong>: Nagy kaliber, lassú tűzgyorsaság,
+            hatalmas rombolóerő. Példa: MK 108, NS-37.
+          </li>
+          <li>
+            <strong>Rakéták</strong>: Irányított és nem irányított rakéták
+            légiből-földi és légiből-levegő célok ellen.
+          </li>
+          <li>
+            <strong>Bombák</strong>: Különböző súlyú bombák földi célpontok
+            megsemmisítésére.
+          </li>
+          <li>
+            <strong>Torpedók</strong>: Tengeri célpontok elleni speciális
+            fegyverek.
+          </li>
+        </ul>
+
+        <h3>Fegyverhasználati stratégiák</h3>
+        <p>
+          A fegyverek hatékony használata a távolságtól és a célpont típusától
+          függ:
+        </p>
+        <ul class="feature-list">
+          <li>Géppuskák hatékonyak közelről, gyorsan manőverező célok ellen</li>
+          <li>Géppuska-granátvetők ideálisak közepes távolságról</li>
+          <li>Gépágyúk hatékonyak nagy távolságról és bombázók ellen</li>
+          <li>Rakétákat célszerű nagy távolságból kilőni</li>
+          <li>Bombázásnál fontos a pontos magasság- és sebességkontroll</li>
+        </ul>
+
+    
+      </section>
+
+      <section class="air-section">
+        <h2>Repülési Mechanikák</h2>
+
+        <p>
+          A WarThunder valósághű repülési modellezést alkalmaz, amely figyelembe
+          veszi az aerodinamikát, a motor teljesítményét, a súlyt és az
+          időjárási viszonyokat. A repülőgép hatékonysága a sebességtől, a
+          magasságtól és a manőverezéstől függ.
+        </p>
+
+        <h3>Repülési alapok</h3>
+        <div class="flight-mechanics">
+          <div class="flight-mechanic">
+            <h4>Energia menedzsment</h4>
+            <p>
+              A sebesség (kinetikus energia) és a magasság (potenciális energia)
+              közötti egyensúly. Fontos a taktikai előny megtartásához.
+            </p>
+          </div>
+
+          <div class="flight-mechanic">
+            <h4>Túlterhelés (G-erő)</h4>
+            <p>
+              Éles kanyaroknál fellépő erő, amely korlátozza a manőverezést. Túl
+              sok G-eredő eszméletvesztést okozhat.
+            </p>
+          </div>
+
+          <div class="flight-mechanic">
+            <h4>Stall (megállás)</h4>
+            <p>
+              Túl nagy támadásszögnél a gépletörés és a felhajtóerő elvesztése.
+              Helyes sebességtartás szükséges az elkerüléséhez.
+            </p>
+          </div>
+        </div>
+
+        <h3>Manőverezési technikák</h3>
+        <p>
+          A légi harcban különféle manőverek alkalmazhatók az ellenfél
+          legyőzésére:
+        </p>
+        <ul class="feature-list">
+          <li>
+            <strong>Immelmann fordulat:</strong> Fél hurkot és fél csavarodást
+            kombináló manőver a pozícióváltáshoz
+          </li>
+          <li>
+            <strong>Split-S:</strong> Fél csavarodás és meredek zuhanás a
+            sebesség növelésére
+          </li>
+          <li>
+            <strong>Scissors (ollózás):</strong> Sorozatos irányváltások az
+            ellenfél mögé kerülésért
+          </li>
+          <li>
+            <strong>High Yo-Yo:</strong> Magasság felhasználása a sebesség
+            növelésére és a pozíció javítására
+          </li>
+          <li>
+            <strong>Low Yo-Yo:</strong> Magasság feláldozása a fordulósugár
+            csökkentésére
+          </li>
+          <li>
+            <strong>Boom and Zoom:</strong> Magasból történő támadás és gyors
+            eltávolodás
+          </li>
+        </ul>
+
+
+        </section>
+
+      <section class="air-section">
+        <h2>Légi Harc Taktikák</h2>
+
+        <p>
+          A WarThunder részletes légi harc modellje lehetővé teszi a különböző
+          taktikák alkalmazását. A találat helye és a használt fegyver típusa
+          együtt határozza meg a sebzés mértékét.
+        </p>
+
+        <h3>Alapvető taktikák</h3>
+        <table class="tactics-table">
+          <thead>
+            <tr>
+              <th>Taktika</th>
+              <th>Leírás</th>
+              <th>Hatékonyság</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Energiaharc (Energy Fighting)</td>
+              <td>
+                Magasság és sebesség felhasználása a pozíciós előny
+                megszerzésére
+              </td>
+              <td>
+                Kiváló vadászrepülőgépeknél (P-51, Bf 109), hosszú távú
+                harcokban
+              </td>
+            </tr>
+            <tr>
+              <td>Fordulóharc (Turn Fighting)</td>
+              <td>
+                Rövid fordulósugár kihasználása az ellenfél mögé kerüléshez
+              </td>
+              <td>Japán és brit gépeknél (Zero, Spitfire), közelharcban</td>
+            </tr>
+            <tr>
+              <td>Boom and Zoom</td>
+              <td>Magasból történő támadás és azonnali eltávolodás</td>
+              <td>
+                Amerikai nehéz vadászgépeknél (P-47), bombázók kíséretében
+              </td>
+            </tr>
+            <tr>
+              <td>Fej-fej elleni (Head-on)</td>
+              <td>Ellenféllel szembeni roham gyors eldöntésért</td>
+              <td>
+                Erős frontális fegyverzettel rendelkező gépeknél (Fw 190),
+                kockázatos
+              </td>
+            </tr>
+            <tr>
+              <td>Flankolás (Flanking)</td>
+              <td>Oldalról vagy hátulról történő meglepetésszerű támadás</td>
+              <td>
+                Gyors gépeknél (P-38), csapatjátékban, alacsony veszély mellett
+              </td>
+            </tr>
+            <tr>
+              <td>Bait and Switch (Csali és váltás)</td>
+              <td>
+                Egy játékos csalogatja az ellenfelet, másik pedig megtámadja
+              </td>
+              <td>Csapatjátékban, kommunikációval, nagyon hatékony</td>
+            </tr>
+          </tbody>
+        </table>
+
+        </section>
+
+      <section class="air-section">
+        <h2>Időjárás és Környezet</h2>
+
+        <p>
+          A WarThunder légi környezete valósághű modellezéssel rendelkezik,
+          amely figyelembe veszi az időjárási viszonyokat, a felhőket és a
+          terepet. Ezek jelentősen befolyásolhatják a repülési élményt és a
+          harci taktikákat.
+        </p>
+
+        <h3>Időjárási hatások</h3>
+        <ul class="feature-list">
+          <li>
+            <strong>Felhők:</strong> Fedezéket nyújthatnak, de korlátozzák a
+            látótávolságot és nehezítik a célzást
+          </li>
+          <li>
+            <strong>Eső és hó:</strong> Csökkentik a látótávolságot,
+            befolyásolják a repülési tulajdonságokat
+          </li>
+          <li>
+            <strong>Szél:</strong> Befolyásolja a bombázás pontosságát és a
+            repülési stabilítást
+          </li>
+          <li>
+            <strong>Köd:</strong> Radikálisan csökkenti a látótávolságot,
+            kihívást jelent a navigáláshoz
+          </li>
+          <li>
+            <strong>Napfény:</strong> A nap iránya befolyásolhatja a
+            láthatóságot - a nap felé nézve nehéz ellenfelet észlelni
+          </li>
+        </ul>
+
+        <h3>Terephasználat és pozicionálás</h3>
+        <p>A siker kulcsa a jó terephasználatban rejlik:</p>
+        <ul class="feature-list">
+          <li>
+            <strong>Nap kihasználása:</strong> A nap felé repülés megnehezíti az
+            ellenfél számára a célzást
+          </li>
+          <li>
+            <strong>Felhőfedezék:</strong> Felhőkben rejtőzködés meglepetésszerű
+            támadásra ad lehetőséget
+          </li>
+          <li>
+            <strong>Alacsony repülés:</strong> Radarvetőrendszerek elkerülése és
+            földi célpontok megközelítése
+          </li>
+          <li>
+            <strong>Hegyek és völgyek:</strong> Természetes akadályok
+            kihasználása az ellenfél elől való elrejtőzéshez
+          </li>
+          <li>
+            <strong>Vízfelszín:</strong> Alacsonyan víz felett repülés nehezebbé
+            teszi az észlelést
+          </li>
+        </ul>
+
+        </section>
+
+      <section class="air-section">
+        <h2>Nemzetek és Repülőgépek</h2>
+
+        <p>
+          A WarThunder 8 különböző nemzet légi járműveit kínálja, mindegyik
+          egyedi játékstílussal, erősségekkel és gyengeségekkel. A nemzetek
+          között jelentős különbségek vannak a repülési tulajdonságok, a
+          fegyverzet és a taktika terén.
+        </p>
+
+        <div class="nation-grid">
+          <div class="nation-card usa-card">
+            <h4>Egyesült Államok</h4>
+            <p>
+              Kiváló nagy magasságú teljesítmény, erős motorok, nehéz
+              fegyverzet. Gyengesség: alacsony magasságon gyengébb manőverezés.
+            </p>
+            <p>
+              <strong>Jellemző gépek:</strong> P-51 Mustang, P-47 Thunderbolt,
+              F-86 Sabre
+            </p>
+          </div>
+
+          <div class="nation-card germany-card">
+            <h4>Németország</h4>
+            <p>
+              Kiváló energiagazdálkodás, erős frontális fegyverzet, jó sebesség.
+              Gyengesség: korlátozott fordulóképesség.
+            </p>
+            <p><strong>Jellemző gépek:</strong> Bf 109, Fw 190, Me 262</p>
+          </div>
+
+          <div class="nation-card ussr-card">
+            <h4>Szovjetunió</h4>
+            <p>
+              Kiváló alacsony és közepes magasságú teljesítmény, erős
+              fegyverzet. Gyengesség: korlátozott nagy magasságú teljesítmény.
+            </p>
+            <p><strong>Jellemző gépek:</strong> Yak-3, La-7, MiG-15</p>
+          </div>
+
+          <div class="nation-card britain-card">
+            <h4>Nagy-Britannia</h4>
+            <p>
+              Kiváló fordulóképesség, jó fegyverzet, kiegyensúlyozott
+              tulajdonságok. Gyengesség: korlátozott sebesség és
+              üzemanyag-kapacitás.
+            </p>
+            <p><strong>Jellemző gépek:</strong> Spitfire, Hurricane, Hunter</p>
+          </div>
+
+          <div class="nation-card japan-card">
+            <h4>Japán</h4>
+            <p>
+              Kiváló fordulóképesség, könnyű szerkezet, hosszú hatótávolság.
+              Gyenge: gyenge páncélzat, kevés rombolóerejű fegyver.
+            </p>
+            <p><strong>Jellemző gépek:</strong> A6M Zero, Ki-84, F-86F-40</p>
+          </div>
+
+          <div class="nation-card italy-card">
+            <h4>Olaszország</h4>
+            <p>
+              Kiváló sebesség, jó manőverezés, innovatív tervezés. Gyenge:
+              gyenge páncélzat, korlátozott fegyverzet.
+            </p>
+            <p><strong>Jellemző gépek:</strong> C.202, G.55, G.91</p>
+          </div>
+
+          <div class="nation-card france-card">
+            <h4>Franciaország</h4>
+            <p>
+              Jó manőverezés, kiegyensúlyozott tulajdonságok. Gyenge:
+              korlátozott járműválaszték, gyenge korai gépek.
+            </p>
+            <p><strong>Jellemző gépek:</strong> D.520, MB.157, Mystère II</p>
+          </div>
+
+          <div class="nation-card sweden-card">
+            <h4>Svédország</h4>
+            <p>
+              Innovatív tervezés, jó teljesítmény, egyedi fegyverzet. Gyenge:
+              korlátozott járműválaszték, drága javítás.
+            </p>
+            <p><strong>Jellemző gépek:</strong> J21, J29, J35 Draken</p>
+          </div>
+        </div>
+
+      
+
+      <div class="slider-container">
+
+      <div class="slides">
+        <div class="numbertext">1 / 5</div>
+        <img src="Images/a10.jpg" alt="Első fotó">
+    </div>
+
+    <div class="slides">
+        <div class="numbertext">2 / 5</div>
+        <img src="Images/ju87.jpg" alt="Második fotó">
+    </div>
+
+    <div class="slides">
+        <div class="numbertext">3 / 5</div>
+        <img src="Images/f16.jpg" alt="Harmadik fotó">
+    </div>
+
+    <div class="slides">
+        <div class="numbertext">4 / 5</div>
+        <img src="Images/bf1092.jpg" alt="Negyedik fotó">
+    </div>
+
+    <div class="slides">
+        <div class="numbertext">5 / 5</div>
+        <img src="Images/mig31.jpg" alt="Ötödik fotó">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<script>
+    let slideIndex = 1;
+
+    document.addEventListener("DOMContentLoaded", function() {
+        showSlides(slideIndex);
+    });
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("slides");
+        if (slides.length === 0) return; 
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slides[slideIndex-1].style.display = "block";  
+    }
+</script>
+
+</section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>WarThunder</h3>
+            <p>
+              A legautentikusabb online harci játék, ahol a történelem és a
+              harci járművek találkoznak. Csatlakozj milliókhoz, és éld át a
+              harci akciót!
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h3>Gyorslinkek</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Főoldal</a></li>
+              <li><a href="mechanikak.html">Játék mechanikák</a></li>
+              <li><a href="ground.html">Szárazföldi csaták</a></li>
+              <li><a href="air.html">Légi csaták</a></li>
+              <li><a href="navy.html">Tengeri csaták</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Hasznos Információk</h3>
+            <ul class="footer-links">
+              <li>
+                <a href="https://www.warthunder.com" target="_blank"
+                  >Játék letöltése</a
+                >
+              </li>
+              <li><a href="#">Gyakori kérdések</a></li>
+              <li><a href="#">Technikai támogatás</a></li>
+              <li><a href="#">Jogpolitika</a></li>
+              <li><a href="#">Felhasználási feltételek</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>
+            &copy; 2023 WarThunder Projekt. Minden jog fenntartva. A WarThunder
+            a Gaijin Entertainment védjegye. Ez egy oktatási projekt, nem az
+            eredeti WarThunder weboldala.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
